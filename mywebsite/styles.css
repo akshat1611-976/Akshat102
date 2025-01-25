@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #1f4037, #99f2c8);
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* About Us Section */
+/* About Us Section */
+#about {
+    padding: 2rem 0;
+    background: #ffffff;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #1f4037;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: center;
+    color: #555;
+}
+
+/* Products Section */
+#products {
+    padding: 2rem 0;
+    background: #ffffff;
+}
+
+#products h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #1f4037;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.product {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+    border-radius: 5px 5px 0 0;
+}
+
+.product h3 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    color: #1f4037;
+}
+
+.product p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.product button {
+    background: #1f4037;
+    color: #ffffff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.product button:hover {
+    background: #99f2c8;
+    color: #1f4037;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem 0;
+    background: #eef;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #1f4037;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    background: #1f4037;
+    color: #ffffff;
+    border: none;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #99f2c8;
+    color: #1f4037;
+}
+
+/* Footer */
+footer {
+    background: #1f4037;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+
+
+
+
